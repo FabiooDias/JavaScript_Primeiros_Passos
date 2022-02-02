@@ -1,0 +1,21 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [        
+    {
+        "command": "node 8-loopWhile.js",
+        "name": "Launch Program",
+        "request": "launch",
+        "type": "node"
+    },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "8-loopsWhile",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}//8-loopsWhile.js"
+        }
+    ]
+}
